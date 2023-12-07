@@ -1,0 +1,17 @@
+font:Cambria Math
+text:grave key\nswap primary and secondary elements\n\n+ / -\nchange brush size\n\n[ / ]\nchange views\n\nt - toggle temperature sim\n\n1 - air\n2 - block\n3 - sand\n4 - water\n5 - powder\n6 - coal\n7 - fire\n8 - smoke\n9 - steam
+x:0.0
+y:0.0
+fSize:10
+end
+
+this file has the tooltip text for the simulation
+
+on another note, this file format is terrible and I should fix it when I have time
+
+probably by making it so that I don't need to add all the fields for each piece of text
+so old files still parse fine, and also adding an escape character so that you can use
+colons in the text
+
+this would also mean you could use different fonts for different pieces of text, giving the format
+more versatility
